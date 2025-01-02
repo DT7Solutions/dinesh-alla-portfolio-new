@@ -18,7 +18,7 @@
     scale: 1.75;
     width: 100%; 
     height: auto; 
-    margin-top: -20%;
+    margin-top: -22%;
     max-width: 550px;
 }
 body {
@@ -78,6 +78,9 @@ body {
 .award-item .award-item-title a:hover{
     color: #000!important;
     text-decoration: none;
+}
+.award-list .award-item {
+    margin-top: 2.5rem;
 }
 .experience-item .experience-item-company{
     color:#ffffff !important;
@@ -149,7 +152,9 @@ a:hover {
 	top: 73.55932203%;
 	left: 6.31578947%;
 } */
-
+.testimonials-item-text {
+    margin-bottom: 2.125rem;
+}
 .form-group-material .form-control {
     color: #b99e64;
 }
@@ -167,3 +172,4 @@ a:hover {
     text-align: justify;
 }
 }
+

@@ -1510,8 +1510,8 @@ label.error {
 /* 4.4 Slide Awards */
 
 .slide-personal-awards .slide-bg {
-	/* background-image: url("../img/bg-personal-awards.png"); */
-	background-color: #000000;
+	background-image: url("../img/Portfolio/Bg-personal/bg-personal-awards.png");
+	/* background-color: #000000; */
 }
 
 .slide-awards-circle1 {
@@ -1600,7 +1600,7 @@ label.error {
 .slide-experience-image2 {
 	width: 41.3125rem;
 	height: 31.25rem;
-	background-image: url("../img/bg-personal-experience-device.png");
+	/* background-image: url("../img/bg-personal-experience-device.png"); */
 	background-size: contain;
 	position: absolute;
 	top: 81.94444444% !important;
@@ -1690,8 +1690,8 @@ label.error {
 /* 4.6 Slide Clients */
 
 .slide-personal-clients .slide-bg {
-	/* background-image: url("../img/bg-personal-clients.png"); */
-	background-color: #000000;
+	background-image: url("../img/Portfolio/Bg-personal/bg-personal-clients.png");
+	/* background-color: #000000; */
 }
 
 .slide-personal-clients .slide-title-info {
@@ -1880,7 +1880,7 @@ label.error {
 }
 
 .slide-personal-testimonials .slide-bg {
-	/* background-image: url("../img/bg-personal-testimonials.png"); */
+	background-image: url("../img/Portfolio/Bg-personal/bg-personal-testimonials.png");
 }
 
 .testimonials-item-avatar-container {

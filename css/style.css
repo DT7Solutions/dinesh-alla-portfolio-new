@@ -1612,7 +1612,7 @@ label.error {
 .slide-experience-image3 {
 	width: 42.875rem;
 	height: 39.4375rem;
-	background-image: url("../img/bg-personal-experience-briefcase.png");
+	/* background-image: url("../img/bg-personal-experience-briefcase.png"); */
 	background-size: contain;
 	position: absolute;
 	top: 27% !important;

@@ -89,6 +89,10 @@ body {
 a:hover {
 	color: #F09800;
 }
+.award-item-title {
+    font-family: 'DM Sans', sans-serif !important;
+    font-weight: 900;
+}
 .clients-photo-item6 img {
     width: 85%;
 }

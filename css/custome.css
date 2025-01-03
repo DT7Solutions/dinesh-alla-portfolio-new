@@ -82,6 +82,12 @@ body {
 .award-list .award-item {
     margin-top: 2.5rem;
 }
+/* .award-item-logo{
+    margin-bottom: 1.75rem;
+} */
+.award-item {
+    padding: 2.1875rem 2.5rem 3.2rem;
+}
 .experience-item .experience-item-company{
     color:#ffffff !important;
 }
@@ -94,9 +100,9 @@ a:hover {
     font-size: 20px;
     font-weight: 600;
 }
-.award-item-logo {
+/* .award-item-logo {
     justify-content: center;
-}
+} */
 .clients-photo-item6 img {
     width: 85%;
 }
@@ -165,6 +171,18 @@ a:hover {
 }
 .form-group-material .form-control {
     color: #b99e64;
+}
+.mail{
+    color: #ffffff;
+}
+.mail:hover {
+    color: #000;
+}
+.contact-personal-card-detail .phone-link:hover{
+    color: #000;
+}
+.contact-sub-heading{
+    color: #ffffff !important;
 }
 @media screen and (max-width: 768px) {
 .abt-img img {

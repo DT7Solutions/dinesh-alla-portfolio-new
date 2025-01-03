@@ -22,6 +22,15 @@
 
     <!-- Custome CSS -->
     <link href="css/custome.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "nLmhlO7Exi4VFGotj",
+            });
+        })();
+    </script>
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
@@ -496,39 +505,6 @@
                   </div>
                 </div>
               </div>
-              <div class="carousel-project-item" style="background-image: url(img/Portfolio/portfolio/portfolio-img-5.jpg);">
-                <div class="slide-container">
-                  <div class="container">
-                    <div class="slide-num">4</div>
-                    <div class="animate-element delay5 fadeInDown">
-                      <div class="row">
-                        <div class="col-md-7">
-                          <div class="slide-title-sub slide-title-sub-md">featured works</div>
-                        </div>
-                        <div class="col-md-5 text-md-right">
-                          <div class="project-date">feb 2018</div>
-                          <div class="slide-title-sub slide-title-sub-md mb-md-3">web design</div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-7">
-                          <h3 class="slide-title text-white">silicon india awards</h3>
-                          <div class="row">
-                            <div class="col-lg-8">
-                              <div class="slide-descr slide-descr-projects">Create clarifying strategy, beautiful logo and
-                                identity design, engaging websites and ongoing marketing support.</div>
-                            </div>
-                          </div>
-                          <div class="slide-btn slide-btn-projects">
-                            <a href="#" class="btn btn-success">view project</a>
-                            <a href="#" class="slide-projects-more mt-2 mb-2">see all projects</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
       
@@ -557,8 +533,9 @@
                       </div>
                       <div class="award-item-title slide-title-sub">
                         <a href="https://www.siliconindia.com/awards/" target="_blank" rel="noopener noreferrer">Silicon India Certificate</a></div>                      
-                      <div class="award-item-descr slide-descr">I’m proud to receive the Silicon India Award for E-commerce Outsourcing 2024</div>
+                      <div class="award-item-descr slide-descr">I’m proud to receive the Silicon India Award for E-commerce Outsourcing in 2024.</div>
                       <!-- <div class="award-item-more"><a href="#" class="text-success">See Project</a></div> -->
+                      <a data-fslightbox="gallery_1" data-type="image" href="img/Portfolio/awards/silicon-india-certificate.png" title="images" class="btn btn-sm btn-circle btn-success"><i class="lni lni-plus"></i></a>
                     </div>
                   </div>
                   <div class="col-lg-4">
@@ -567,8 +544,9 @@
                       <div class="award-item-logo"><img src="img/Portfolio/awards/skill-nation-certificate.png" alt="skill-nation-certificate" />
                       </div>
                       <div class="award-item-title slide-title-sub"> <a href="https://join.navinparmar.in/" target="_blank" rel="noopener noreferrer">Skill Nation Certificate</a></div>
-                      <div class="award-item-descr slide-descr">Skill Nation Certificate for WhatsApp Marketing & Automation, showcasing expertise in innovative marketing strategies</div>
+                      <div class="award-item-descr slide-descr">Skill Nation Certificate for WhatsApp Marketing & Automation, showcasing expertise in marketing strategies.</div>
                       <!-- <div class="award-item-more"><a href="#" class="text-success">See Project</a></div> -->
+                      <a data-fslightbox="gallery_1" data-type="image" href="img/Portfolio/awards/skill-nation-certificate.png" class="btn btn-sm btn-circle btn-success" title="images"><i class="lni lni-plus"></i></a>
                     </div>
                   </div>
                   <div class="col-lg-4">
@@ -578,6 +556,7 @@
                       <div class="award-item-title slide-title-sub"> <a href="https://jaroconnect.jaroeducation.com/" target="_blank" rel="noopener noreferrer">J Connect Certificate</a></div>
                       <div class="award-item-descr slide-descr">J Connect Certificate for New Age Digital Marketing, recognizing expertise in modern digital strategies.</div>
                       <!-- <div class="award-item-more"><a href="#" class="text-success">See Project</a></div> -->
+                      <a data-fslightbox="gallery_1" data-type="image" href="img/Portfolio/awards/j-connect-certificate.png" class="btn btn-sm btn-circle btn-success" title="images"><i class="lni lni-plus"></i></a>
                     </div>
                   </div>
                 </div>
@@ -593,7 +572,7 @@
                 <div class="slide-num">6</div>
                 <div class="row">
                   <div class="col-lg-5">
-                    <h3 class="slide-title-info mr-lg-5 pr-lg-3 animate-element delay5 fadeInDown client-title"> My Entrepreneurial Legacy </h3>
+                    <h3 class="slide-title mr-lg-5 pr-lg-3 animate-element delay5 fadeInDown client-title"> my enterprises</h3>
                     <div class="client-list animate-element delay5 fadeInUp">
                       <div class="clients-title title-mini">achievements</div>
                       <div class="client-item media">
@@ -648,7 +627,8 @@
                 <div class="row">
                   <div class="col-md-5 col-sm-10 mb-4">
                     <div class="video-link">
-                      <a href="#" data-fancybox class="inside animate-element delay6 fadeIn" style="background-image: url(img/pic5.png);"></a>
+                      <!-- <a href="#" data-fancybox class="inside animate-element delay6 fadeIn" style="background-image: url(img/pic5.png);"></a> -->
+                      <div data-fancybox class="inside animate-element delay6 fadeIn" style="background-image: url(img/pic5.png);"></div>
                       <div class="slide-photo circle-green slide-testimonials-circle1 transformLeft"></div>
                       <div class="slide-photo circle-brown slide-testimonials-circle2 transformRight"></div>
                     </div>
@@ -660,7 +640,7 @@
                     <div class="carousel-testimonial a-carousel-testimonial owl-carousel owl-theme animate-element delay5 fadeInDown">
                       <div class="testimonials-item">
                         <div class="testimonials-item-avatar-container">
-                          <div class="testimonial-item-avatar avatar"><div class="inside" style="background-image: url(img/pic4.jpg);"></div></div>
+                          <div class="testimonial-item-avatar avatar"><div class="inside" style="background-image: url(img/pic4.png);"></div></div>
                           <div class="testimonial-item-company clients-photo-item"><div class="inside"><img src="img/pic-client-8.png" alt=""></div></div>
                         </div>
                         <div class="testimonials-item-text slide-title-info">“Working with Dinesh Alla was a fantastic experience. He is innovative, approachable, and highly professional. The results were beyond our expectations.”</div>
@@ -676,7 +656,7 @@
                       </div>
                       <div class="testimonials-item">
                         <div class="testimonials-item-avatar-container">
-                          <div class="testimonial-item-avatar avatar"><div class="inside" style="background-image: url(img/pic5.jpg);"></div></div>
+                          <div class="testimonial-item-avatar avatar"><div class="inside" style="background-image: url(img/pic4.png);"></div></div>
                           <div class="testimonial-item-company clients-photo-item"><div class="inside"><img src="img/pic-client-7.png" alt=""></div></div>
                         </div>
                         <div class="testimonials-item-text slide-title-info">“Dinesh Alla has an exceptional talent for creating unique solutions. He truly understands the South Indian market and delivers outstanding value. Highly recommended!"
@@ -694,7 +674,7 @@
                       </div>
                       <div class="testimonials-item">
                         <div class="testimonials-item-avatar-container">
-                          <div class="testimonial-item-avatar avatar"><div class="inside" style="background-image: url(img/pic4.jpg);"></div></div>
+                          <div class="testimonial-item-avatar avatar"><div class="inside" style="background-image: url(img/pic4.png);"></div></div>
                           <div class="testimonial-item-company clients-photo-item"><div class="inside"><img src="img/pic-client-1.png" alt=""></div></div>
                         </div>
                         <div class="testimonials-item-text slide-title-info">“It's rare to find someone as dedicated and insightful as Dinesh Alla. His work has significantly improved our business operations. We couldn't be happier!”</div>
@@ -734,54 +714,48 @@
                       <div class="contact-personal-card-detail animate-element delay7 fadeInUp">
                         <div class="row">
                           <div class="col-xl-7 col-lg-10">
-                            <div class="title-mini">contact info</div>
-                            <div class="slide-title-sub">Dt7 Agency, Guntur, Andhra Pradesh, India, Asia, World, Earth, Solar System, Milky Way</div>
+                            <div class="title-mini">business address :</div>
+                            <div class="slide-title-sub">Dt7 Agency, Chandramouli Nagar, Guntur, Andhra Pradesh - 522007, India</div>
                             <div class="slide-title-sub"><a href="tel:+91 98859 98511 " class="phone-link">+91 98859 98511</a></div>
-                            <div class="text-md text-uppercase"><a href="dineshalla@gmail.com" class="text-primary"><strong>dineshalla@gmail.com</strong></a></div>
+                            <div class="text-md text-uppercase"><a href="dineshalla@gmail.com" class="mail"><strong>dineshalla@gmail.com</strong></a></div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-5 animate-element delay7 fadeInUp">
-                    <div class="slide-title-info">Collaborate for Excellence: <span class="text-primary">Let’s Connect and Make a Difference</span></div>
-                    <form class="contact-personal-form a-ajax-form">
+                    <div class="slide-title-info">Collaborate for Excellence: <span class="text-primary contact-sub-heading">Let’s Connect and Make a Difference</span></div>
+                    <form class="contact-form" id="contactForm">
                       <div class="form-group form-group-material a-form-group">
-                        <label class="label">Full name</label>
-                        <input type="text" class="form-control" name="name" required />
+                        <label for="name" class="label">Full Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your full name" required />
                       </div>
                       <div class="form-group form-group-material a-form-group">
-                        <label class="label">Email</label>
-                        <input type="email" class="form-control" name="email" required />
+                        <label for="email" class="label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required />
                       </div>
                       <div class="form-group form-group-material a-form-group">
-                        <label class="label">Category</label>
-                        <select class="form-control" name="category">
-                          <option value="">&nbsp;</option>
-                          <option value="branding">Branding</option>
-                          <option value="webdesign">Web Design</option>
-                          <option value="photography">Photography</option>
-                          <option value="mobileapp">Mobile App</option>
-                        </select>
+                        <label for="phone" class="label">Phone</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number" required />
                       </div>
                       <div class="form-group form-group-material a-form-group">
-                        <label class="label">Project detail(optional)</label>
-                        <textarea class="form-control" name="message" cols="30" rows="3"></textarea>
+                        <label for="message" class="label">Message</label>
+                        <textarea class="form-control" id="message" name="message" cols="30" rows="3" placeholder="Write your message" required></textarea>
                       </div>
                       <div class="form-group control-file a-file">
-                        <input type="file" name="file_attach[]" multiple />
+                        <input type="file" id="fileAttach" name="file_attach[]" multiple accept=".doc,.pdf" />
                         <div class="file-path-wrapper">
                           <i class="lni lni-paperclip text-primary"></i>
-                          <input class="file-path form-control" placeholder="Add Attachment(.doc;.pdf)" />
+                          <input class="file-path form-control" placeholder="Add Attachment (.doc, .pdf)" />
                         </div>
                       </div>
-                      <div class="message text-success success-message">Your message is successfully sent...</div>
-                      <div class="message text-danger error-message">Sorry something went wrong</div>
+                      <div class="loading" style="display: none;">Loading...</div>
+                      <div class="message text-success sent-message" style="display: none;">Your message has been successfully sent.</div>
+                      <div class="message text-danger error-message" style="display: none;">Sorry, something went wrong.</div>
                       <div class="control-btn">
                         <button class="btn btn-success" type="submit">Send message</button>
                       </div>
-
-                    </form>
+                    </form>                    
                   </div>
                 </div>
               </div>
@@ -849,9 +823,13 @@
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/validate.js"></script>
 
     <!-- Custome Script -->
     <script src="js/custome.js"></script>
+    <!-- Awards Modal JavaScript -->
+    <!-- fslightbox effect -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.4.0/index.js" integrity="sha512-Vdge+4gAuFr0U/JCfFdR24aOl9R0c/3pCYgi5bt/nU+Hl6REetTWmOr6FYjOW/7JdyQt27U8x7XJcE+IS8vKMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   </body>
 </html>

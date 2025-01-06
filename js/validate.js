@@ -62,6 +62,7 @@
       email: form.querySelector("input[name='email']").value,
       phone: form.querySelector("input[name='phone']").value,
       message: form.querySelector("textarea[name='message']").value,
+      files: form.querySelector("input[name='file_attach[]']").value,
     };
 
 

@@ -169,6 +169,9 @@ a:hover {
 .testimonials-item-text {
     margin-bottom: 2.125rem;
 }
+.contact-personal-card .title-mini {
+    color: #ffffff;
+}
 .form-group-material .form-control {
     color: #b99e64;
 }

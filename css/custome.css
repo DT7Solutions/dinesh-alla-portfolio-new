@@ -188,7 +188,9 @@ a:hover {
 .contact-sub-heading{
     color: #ffffff !important;
 }
-
+.text-white .slide-descr {
+    color: #909090;
+}
 @media screen and (max-width: 768px) {
 .abt-img img {
     height: auto;

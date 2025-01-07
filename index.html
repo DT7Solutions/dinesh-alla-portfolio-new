@@ -150,7 +150,7 @@
               <div class="container">
                 <div class="slide-num">2</div>
                 <div class="row">
-                  <div class="col-md-4 col-sm-12">
+                  <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="animate-element delay5 fadeInDown">
                       <!-- <div class="d-md-none"> -->
                         <!-- <div class="slide-title-sub slide-title-sub-sm">YEARS EXPERIENCE</div>
@@ -165,7 +165,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-8 col-sm-12">
+                  <div class="col-lg-8 col-md-12 col-sm-12 text">
                     <h2 class="slide-title slide-title-personal-services slide-title-lg">My Story</h2>
                     <div class="abt-text animate-element delay5 fadeInUp text-justify">
                     <p>
@@ -386,7 +386,7 @@
                           <h3 class="slide-title text-white">iim visakhapatnam</h3>
                           <div class="row">
                             <div class="col-lg-8">
-                              <div class="slide-descr slide-descr-projects">I am thrilled to complete my Post Graduation in Digital Marketing and Growth from IIM Visakhapatnam. This program has sharpened my digital marketing expertise, empowering me to drive growth in the digital era.</div>
+                              <div class="slide-descr slide-descr-projects">I am thrilled that I completed my Post Graduation in Digital Marketing and Growth from IIM Visakhapatnam. This program has sharpened my digital marketing expertise, empowering me to drive growth in the digital era.</div>
                             </div>
                           </div>
                           <div class="slide-btn slide-btn-projects">
@@ -699,13 +699,6 @@
                         <label for="message" class="label">Message</label>
                         <textarea class="form-control" id="message" name="message" cols="30" rows="3" placeholder="Write your message" required></textarea>
                       </div>
-                      <div class="form-group control-file a-file">
-                        <input type="file" id="fileAttach" name="file_attach[]" multiple accept=".doc,.pdf" />
-                        <div class="file-path-wrapper">
-                          <i class="lni lni-paperclip text-primary"></i>
-                          <input class="file-path form-control" placeholder="Add Attachment (.doc, .pdf)" />
-                        </div>
-                      </div>
                       <div class="loading" style="display: none;">Loading...</div>
                       <div class="message text-success sent-message" style="display: none;">Your message has been successfully sent.</div>
                       <div class="message text-danger error-message" style="display: none;">Sorry, something went wrong.</div>
@@ -750,18 +743,19 @@
           </div>
           <div class="modal-body">
             <p class="slide-descr">Leave your contacts and our managers will contact you soon.</p>
-            <form class="form-request a-ajax-form">
+            <form class="modal-form">
               <div class="form-group form-group-material a-form-group">
-                <input type="text" name="name" class="form-control" placeholder="Name">
+                <input type="text" name="name" class="form-control" placeholder="Name" required />
               </div>
               <div class="form-group form-group-material a-form-group">
-                <input type="email" name="email"  class="form-control" required="" placeholder="Email *">
+                <input type="email" name="email"  class="form-control" placeholder="Email" required />
               </div>
               <div class="form-group form-group-material a-form-group">
-                <textarea rows="3" name="message"  class="form-control" placeholder="Message"></textarea>
+                <textarea rows="3" name="message"  class="form-control" placeholder="Message" required ></textarea>
               </div>
-              <div class="message text-success success-message">Your message is successfully sent...</div>
-              <div class="message text-danger error-message">Sorry something went wrong</div>
+              <div class="loading" style="display: none;">Loading...</div>
+              <div class="message text-success sent-message" style="display: none;">Your message has been successfully sent.</div>
+              <div class="message text-danger error-message" style="display: none;">Sorry, something went wrong.</div>
               <div class="control-btn text-right">
                 <button type="submit" class="btn btn-success">Submit</button>
               </div>
@@ -781,6 +775,7 @@
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/validate.js"></script>
+    <script src="js/modal-validate.js"></script>
 
     <!-- Custome Script -->
     <script src="js/custome.js"></script>

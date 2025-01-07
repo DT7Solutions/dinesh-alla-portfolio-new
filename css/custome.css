@@ -191,7 +191,10 @@ a:hover {
 .text-white .slide-descr {
     color: #909090;
 }
-@media screen and (max-width: 768px) {
+
+/* mobile view  */
+
+@media screen and (max-width: 767px) {
 .abt-img img {
     height: auto;
     width : 300px;
@@ -204,4 +207,57 @@ a:hover {
     margin-left: -0.25rem;
     text-align: justify;
 }
+.carousel-project-item {
+    background-position: 60% center;
+}
+.text-white .slide-descr {
+    color: #ffffff;
+}
+.contact-personal-card-detail .phone-link:hover{
+    color: #F09800;
+}
+.mail:hover {
+    color: #F09800;
+}
+.contact-personal-card .title-mini {
+    color: #F09800;
+}
+}
+
+/* ipad air view  */
+
+@media only screen and (min-width: 820px) and (max-width: 1024px) {
+    .slide-personal-about img {
+        scale: 1;
+        width: 100%;
+        height: auto;
+        margin-top: -22%;
+        max-width: 550px;
+        position: relative;
+        left: 70px;
+        top: -83px
+        }
+    .text {
+        margin-left: -8%;
+        top: -132px;
+        }
+}
+
+/* ipad mini view  */
+
+@media only screen and (min-width: 768px) and (max-width: 819px) {
+    .slide-personal-about img {
+        scale: 1;
+        width: 100%;
+        height: auto;
+        margin-top: -22%;
+        max-width: 550px;
+        position: relative;
+        left: 70px;
+        top: -83px
+        }
+    .text {
+        margin-left: -7%;
+        top: -234px;
+        }
 }

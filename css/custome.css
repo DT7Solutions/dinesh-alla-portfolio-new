@@ -242,10 +242,6 @@ a:hover {
 .form-group-material .form-control {
     color: #ffffff;
 }
-/* .slide-personal-contacts .control-btn .btn-success{
-    background-color: #000000;
-    border-color: #000000;
-} */
 .slide-intro-circle1 {
     top: 14.462963% !important;
 }
@@ -289,9 +285,7 @@ a:hover {
 .slide-personal-contacts .slide-title-info {
     color: #F09800;
 }
-
 }
-
 /* ipad air view  */
 
 @media only screen and (min-width: 820px) and (max-width: 1024px) {
@@ -328,4 +322,7 @@ a:hover {
         margin-left: -7%;
         top: -234px;
         }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
 }

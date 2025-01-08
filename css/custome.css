@@ -173,9 +173,6 @@ a:hover {
     color: #ffffff;
     margin-bottom: 0.975rem;
 }
-.form-group-material .form-control {
-    color: #b99e64;
-}
 .mail{
     color: #ffffff;
 }
@@ -191,7 +188,21 @@ a:hover {
 .text-white .slide-descr {
     color: #909090;
 }
-
+.form-group-material .label {
+    font-size: 1.35rem;
+}
+.form-group-material .form-control {
+    font-size: 1rem;
+}
+.slide-personal-contacts .slide-title-info {
+    color: #F09800;
+}
+.contact-form .label {
+    color: #F09800;
+}
+.form-group-material .form-control {
+    color: rgb(255, 255, 255);
+}
 /* mobile view  */
 
 @media screen and (max-width: 767px) {
@@ -212,9 +223,15 @@ a:hover {
 }
 .text-white .slide-descr {
     color: #ffffff;
+    padding-right: 7%;
+    text-align: justify;
 }
 .contact-personal-card-detail .phone-link:hover{
     color: #F09800;
+}
+.mail {
+    font-size: 1.1rem;
+    color: #909090;
 }
 .mail:hover {
     color: #F09800;
@@ -225,9 +242,54 @@ a:hover {
 .form-group-material .form-control {
     color: #ffffff;
 }
-.slide-personal-contacts .control-btn .btn-success{
+/* .slide-personal-contacts .control-btn .btn-success{
     background-color: #000000;
+    border-color: #000000;
+} */
+.slide-intro-circle1 {
+    top: 14.462963% !important;
 }
+.slide-personal-intro .slide-title {
+    font-size: 5vmin;
+}
+.portfolio-text{
+    position: absolute;
+    top: 150px;
+}
+.carousel-project-item {
+    background-position: 85% top;
+}
+.carousel-project-personal .carousel-project-item {
+    height: 65%;
+}
+.slide-personal-projects .slide-num {
+    top: -120px!important;
+}
+.slide-personal-clients .title-mini {
+    font-size: 1.3rem;
+}
+.slide-contacts-circle1 {
+    width: 60.5625rem;
+    height: 60.5625rem;
+    top: 55.944444%;
+    left: 60.5625%;
+}
+.slide-personal-contacts .title-mini {
+    font-size: 1.3rem;
+}
+.slide-personal-contacts .slide-title-sub {
+    font-size: 1.1rem;
+}
+.slide-contacts-circle2 {
+    right: -7.96875%;
+}
+.contact-personal-card-detail .slide-title-sub{
+    color: #999 !important;
+}
+.slide-personal-contacts .slide-title-info {
+    color: #F09800;
+}
+
 }
 
 /* ipad air view  */

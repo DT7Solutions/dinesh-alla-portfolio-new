@@ -223,8 +223,9 @@ a:hover {
     width : 300px;
     border-radius: 10px;
 }
-.slide-title-lg {
+.slide-personal-about .slide-title-lg {
     margin-left: -0.25rem;
+    text-align: center;
 }
 .abt-text {
     margin-left: -0.25rem;
@@ -238,7 +239,13 @@ a:hover {
     left: -168.4375% !important;
 }
 .award-item {
-    padding: 2rem 2.5rem 2rem;
+    padding: 2rem 2rem 2rem;
+}
+.award-item-title {
+    font-size: 16px;
+}
+.award-item-descr {
+    margin-bottom: 1rem;
 }
 .text-white .slide-descr {
     color: #ffffff;
@@ -335,6 +342,7 @@ a:hover {
     .text-white .slide-descr {
         font-size: 21px;
         text-align: justify;
+        padding: 0 1rem;
     }
     .slide-personal-clients .title-mini {
         font-size: 1.875rem;
@@ -343,7 +351,7 @@ a:hover {
         font-size: 1.5rem;
     }
     .slide-contacts-circle1 {
-        left: 34.5625%;
+        top: 91.944444%;
     }
     .slide-intro-circle1 {
         top: 22.462963% !important;
@@ -354,18 +362,25 @@ a:hover {
     }
     .slide-title-lg {
         margin-left: 0rem;
+        text-align: center;
+        position: relative;
+        top: -20%;
     }
     .abt-text {
         margin-left: 0rem;
+        padding: 0 1rem;
+        position: relative;
+        top: -20%;
     }
     .slide-personal-projects .slide-title {
         font-size: 6.207407vmin;
+        padding: 0 1rem;
     }
     .slide-personal-awards .award-list {
         justify-content: center;
     }
-    .description1 {
-        padding-bottom: 10%;
+    .award-item {
+        padding: 2.1875rem 2rem 2rem;
     }
     .icon-partners {
         width: 5.75rem;

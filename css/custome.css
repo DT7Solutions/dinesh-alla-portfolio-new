@@ -187,6 +187,7 @@ a:hover {
 }
 .text-white .slide-descr {
     color: #909090;
+    text-align: justify;
 }
 .form-group-material .label {
     font-size: 1.35rem;
@@ -203,6 +204,11 @@ a:hover {
 .form-group-material .form-control {
     color: rgb(255, 255, 255);
 }
+@media (min-width: 768px) {
+    .slide-personal-intro .slide-title {
+        font-size: 6.40740741vmin;
+    }
+}
 /* mobile view  */
 
 @media screen and (max-width: 767px) {
@@ -217,9 +223,6 @@ a:hover {
 .abt-text {
     margin-left: -0.25rem;
     text-align: justify;
-}
-.carousel-project-item {
-    background-position: 60% center;
 }
 .text-white .slide-descr {
     color: #ffffff;
@@ -252,10 +255,8 @@ a:hover {
     position: absolute;
     top: 150px;
 }
-.carousel-project-item {
-    background-position: 85% top;
-}
 .carousel-project-personal .carousel-project-item {
+    background-position: 85% top;
     height: 65%;
 }
 .slide-personal-projects .slide-num {
@@ -304,7 +305,6 @@ a:hover {
         top: -132px;
         }
 }
-
 /* ipad mini view  */
 
 @media only screen and (min-width: 768px) and (max-width: 819px) {
@@ -323,6 +323,42 @@ a:hover {
         top: -234px;
         }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+/* tablet view  */
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .slide-personal-intro .slide-title {
+        font-size: 5.407407vmin;
+    }
+    .slide-descr-intro {
+        margin-right: 18%;
+        text-align: justify;
+        font-size: 21px;
+    }
+    .carousel-project-personal .carousel-project-item {
+        background-position: 95% top;
+        height: 65%;
+    }
+    .portfolio-text{
+        position: absolute;
+        top: 270px;
+    }
+    .text-white .slide-descr {
+        font-size: 21px;
+        text-align: justify;
+    }
+    .slide-personal-clients .title-mini {
+        font-size: 1.875rem;
+    }
+    .slide-personal-clients .slide-descr {
+        font-size: 1.5rem;
+    }
+    .slide-contacts-circle1 {
+        left: 34.5625%;
+    }
+    .description1 {
+        padding-bottom: 32%;
+    }
+    .description3 {
+        padding-bottom: 16%;
+    }
 }

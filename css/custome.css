@@ -61,7 +61,7 @@ body {
     background-color: #F09800;
 }
 .nav-toggle .stick {
-    background: #F09800;
+    background: #F09800!important;
 }
 .footer .social :hover {
     color: #ffffff !important;
@@ -231,6 +231,10 @@ a:hover {
     padding: 0.5rem 1.5rem;
     font-size: 0.8rem;
 }
+.slide-personal-intro .slide-num {
+    position: relative;
+    top: -95px;
+}
 .abt-img img {
     scale: 1.25;
     height: auto;
@@ -329,6 +333,15 @@ a:hover {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .slide-personal-intro .slide-title-sub {       
         font-size: 1.75rem;
+    }
+    .slide-personal-intro .slide-num {
+        top: -220px;
+    }
+    .slide-personal-experience .slide-num {
+        top: -180px;
+    }
+    .slide-personal-projects .slide-num {
+        top: -240px;
     }
     .slide-personal-about img {
         scale: 1;

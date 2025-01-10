@@ -217,6 +217,10 @@ a:hover {
         left: -160px;
         top: 188px;
 }
+.slide-personal-intro .slide-title-sub {
+    margin-bottom: 1.5rem;
+    font-size: 1.175rem;
+}
 .abt-img img {
     scale: 1.25;
     height: auto;
@@ -313,6 +317,9 @@ a:hover {
 /* tablet view  */
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .slide-personal-intro .slide-title-sub {       
+        font-size: 1.75rem;
+    }
     .slide-personal-about img {
         scale: 1;
         width: 100%;

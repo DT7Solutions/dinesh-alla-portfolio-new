@@ -189,6 +189,9 @@ a:hover {
     color: #909090;
     text-align: justify;
 }
+.form-group-material {
+    padding-top: 1.5rem;
+}
 .form-group-material .label {
     font-size: 1.35rem;
 }
@@ -204,8 +207,11 @@ a:hover {
 .form-group-material .form-control {
     color: rgb(255, 255, 255);
 }
+.modal-body .modal-form .form-group-material .form-control {
+    color: rgb(0, 0, 0);
+}
 @media (min-width: 768px) {
-    .slide-personal-intro .slide-title {
+.slide-personal-intro .slide-title {
         font-size: 6.40740741vmin;
     }
 }
@@ -220,6 +226,10 @@ a:hover {
 .slide-personal-intro .slide-title-sub {
     margin-bottom: 1.5rem;
     font-size: 1.175rem;
+}
+.slide-personal-intro .btn {
+    padding: 0.5rem 1.5rem;
+    font-size: 0.8rem;
 }
 .abt-img img {
     scale: 1.25;

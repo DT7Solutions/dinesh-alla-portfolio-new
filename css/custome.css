@@ -66,6 +66,27 @@ body {
 .footer .social :hover {
     color: #ffffff !important;
 }
+.social-fixed {
+	position: fixed;
+	z-index: 300;
+	left: 0px;
+	bottom: 2.5%;
+}
+.footer-linkedin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-linkedin span {
+    margin-bottom: 50%;
+    transform: rotate(-90deg)!important;
+}
+.footer .social-fixed a {
+    text-decoration: none;
+}
+.social a:hover {
+	color: #0077b5;
+}
 .contact-personal-card-detail .slide-title-sub{
     color: #ffffff!important;
 }
@@ -416,7 +437,7 @@ a:hover {
         width: 5.75rem;
         height: 6.75rem;
     }
-    .icon-project{
+    .icon-experience{
         width: 5.75rem;
         height: 6.75rem;
     }

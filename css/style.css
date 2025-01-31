@@ -1720,12 +1720,12 @@ label.error {
 	background-repeat: no-repeat;
 }
 
-.icon-project {
+.icon-experience {
 	display: inline-block;
 	vertical-align: top;
 	width: 3.75rem;
 	height: 3.75rem;
-	background-image: url("../img/icon-project.png");
+	background-image: url("../img/icon-experience.png");
 	background-position: 50% 50%;
 	background-size: 100%;
 	background-repeat: no-repeat;
